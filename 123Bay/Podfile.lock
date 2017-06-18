@@ -1,0 +1,24 @@
+PODS:
+  - AMScrollingNavbar (3.3.3)
+  - JTAppleCalendar (7.0.2)
+  - NVActivityIndicatorView (3.6.1)
+  - RangeSlider (0.0.1)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - AMScrollingNavbar
+  - JTAppleCalendar (~> 7.0)
+  - NVActivityIndicatorView
+  - RangeSlider
+  - SnapKit (~> 3.2.0)
+
+SPEC CHECKSUMS:
+  AMScrollingNavbar: 6a2c01a912b96aa36581268759f18d85b3d1575e
+  JTAppleCalendar: c14685634064ef67a68209548ff3443208af48a3
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  RangeSlider: d4ce7d03076981283961bca4cbfc8bd4db84f45a
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+
+PODFILE CHECKSUM: 2ac0dc76be1db9ea44beb649dc8354e6931c6c68
+
+COCOAPODS: 1.2.1

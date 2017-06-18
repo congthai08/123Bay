@@ -1,0 +1,6 @@
+framework module Pods_123Bay {
+  umbrella header "Pods-123Bay-umbrella.h"
+
+  export *
+  module * { export * }
+}

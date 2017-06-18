@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target '123Bay' do
+  pod 'JTAppleCalendar', '~> 7.0'
+  pod 'NVActivityIndicatorView'
+  pod 'SnapKit', '~> 3.2.0'
+  pod 'AMScrollingNavbar'
+  pod 'RangeSlider'
+end

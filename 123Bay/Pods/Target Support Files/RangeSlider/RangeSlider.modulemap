@@ -1,0 +1,6 @@
+framework module RangeSlider {
+  umbrella header "RangeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
