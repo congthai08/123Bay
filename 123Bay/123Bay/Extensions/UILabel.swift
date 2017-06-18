@@ -33,4 +33,28 @@ extension UILabel {
         
         return attributedText
     }
+    
+    //add border for label
+    func border(borderW: CGFloat, corner: CGFloat, color: UIColor) {
+        self.layer.borderColor = color.cgColor
+        self.layer.borderWidth = borderW
+        self.layer.cornerRadius = corner
+        self.clipsToBounds = true
+    }
 }
+
+func doubleTextAttribute(text1: String, text2: String, color1: UIColor, color2: UIColor) -> NSMutableAttributedString {
+    let text1: String = text1
+    let text2: String = text2
+    let attrColor1 = [NSForegroundColorAttributeName: color1]
+    let attrColor2 = [NSForegroundColorAttributeName: color2]
+    let showText1 = NSAttributedString(string: text1, attributes: attrColor1)
+    let showText2 = NSAttributedString(string: text2, attributes: attrColor2)
+    let combination = NSMutableAttributedString()
+    
+    combination.append(showText1)
+    combination.append(showText2)
+    
+    return combination
+}
+

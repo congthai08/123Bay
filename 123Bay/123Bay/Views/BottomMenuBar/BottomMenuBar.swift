@@ -82,9 +82,25 @@ extension BottomMenuBar: UICollectionViewDelegate, UICollectionViewDataSource, U
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        switch indexPath.item {
+        case 0:
+            //PromotionController: Man hinh khuyen mai
+            //let promotionController = PromotionController()
+            break
+        case 1:
+            break
+        case 2:
+            break
+        default:
+            break
+        }
+        
+        //SuccessBookingController: Man hinh hoan tat dat ve may bay
+    }
 }
-
-
 
 
 

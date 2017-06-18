@@ -210,6 +210,14 @@ class FindFlightController: UIViewController {
             let chooseAirportArriive = ChooseFlightController()
             navigationController?.pushViewController(chooseAirportArriive, animated: true)
             break
+        case 2:
+            let sourceCalendar = CalendarController()
+            navigationController?.pushViewController(sourceCalendar, animated: true)
+            break
+        case 3:
+            let destinationCalendar = CalendarController()
+            navigationController?.pushViewController(destinationCalendar, animated: true)
+            break
         case 4:
             chooseNumberPassenger.show()
             break
