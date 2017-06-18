@@ -26,7 +26,7 @@ class HomeViewController: UICollectionViewController {
     
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
-        menu.homeController = self
+        menu.delegate = self
         return menu
     }()
     

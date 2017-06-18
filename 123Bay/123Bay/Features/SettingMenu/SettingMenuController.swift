@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol SettingMenuControllerDeledate: class {
+    func presentDetailMenuSetting(_ viewController: UIViewController)
+}
+
 //This class display menu Setting
 class SettingMenuController: UIViewController {
     
@@ -23,12 +27,8 @@ class SettingMenuController: UIViewController {
     fileprivate let arrayNameIcon = ["2-19", "2-20", "2-21"]
     
     //MARK: Create Object
-    var homeController: HomeViewController?
-    var findFlightController: FindFlightController?
-    var listFlightsViewController: ListFlightsViewController?
-    var bookingFlightController: BookingFlightController?
-    var paymentController: PaymentController?
-    var successBookingController: SuccessBookingController?
+    
+    var delegate: SettingMenuControllerDeledate?
     
     lazy var collectionViewSetting: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -173,12 +173,17 @@ extension SettingMenuController: UICollectionViewDelegate, UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let index = indexPath.item
         hideMenuSetting()
-        if let home = homeController {
-            home.showDetailMenuSetting(index: index)
-        } else if let find = findFlightController {
-            find.showDetailMenuSetting(index: index)
+        
+        let index = indexPath.item
+        
+        switch index {
+        case 1:
+            let infomationAssigmentController = InformationAssignmentScreenController()
+            delegate?.presentDetailMenuSetting(infomationAssigmentController)
+            break
+        default:
+            break
         }
     }
 }

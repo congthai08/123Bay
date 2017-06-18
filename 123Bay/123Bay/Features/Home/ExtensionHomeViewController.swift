@@ -55,3 +55,11 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
+extension HomeViewController: SettingMenuControllerDeledate {
+    
+    func presentDetailMenuSetting(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+}
+

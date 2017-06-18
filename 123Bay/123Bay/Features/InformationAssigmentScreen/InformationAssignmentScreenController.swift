@@ -13,12 +13,6 @@ import UIKit
 class InformationAssignmentScreenController: UIViewController {
 
     //MARK: - Create variables
-    private var mainView: UIView = {
-        let mainView = UIView()
-        mainView.backgroundColor = Theme.defaultColor
-        return mainView
-    }()
-    
     private var infoLabel: UILabel = {
         let infoLabel = UILabel()
         
@@ -72,7 +66,8 @@ class InformationAssignmentScreenController: UIViewController {
     //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupForMainView()
+        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
+        view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         setupForInfoLabel()
         setupForEmailLabel()
         setupForCachedEmail()
@@ -85,7 +80,6 @@ class InformationAssignmentScreenController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         emailTextField.resignFirstResponder()
     }
-    
     //MARK: - Set data
     private func setData() {
         infoLabel.text = "Đăng ký ngay để nhận giảm giá khi đặt vé máy bay và khách sạn lên đến 70%. MIỄN PHÍ!"
@@ -95,22 +89,13 @@ class InformationAssignmentScreenController: UIViewController {
     }
     
     //MARK: - Autolayout for elements
-    private func setupForMainView() {
-        self.view.addSubview(mainView)
-        mainView.snp.makeConstraints { (make) in
-            make.top.equalToSuperview().offset(50)
-            make.left.equalToSuperview()
-            make.right.equalToSuperview()
-            make.bottom.equalToSuperview()
-        }
-    }
     
     private func setupForInfoLabel() {
         self.view.addSubview(infoLabel)
         infoLabel.snp.makeConstraints { (make) in
-            make.top.equalTo(self.mainView).offset(5)
-            make.left.equalTo(self.mainView).offset(15)
-            make.right.equalTo(self.mainView).inset(15)
+            make.top.equalTo(self.topLayoutGuide.snp.bottom).offset(Dimension.shared.topMargin)
+            make.left.equalToSuperview().offset(Dimension.shared.pageLeftMarging)
+            make.right.equalToSuperview().offset(Dimension.shared.pageRightMarging)
         }
     }
     
@@ -147,9 +132,9 @@ class InformationAssignmentScreenController: UIViewController {
         self.view.addSubview(assignButton)
         assignButton.snp.makeConstraints { (make) in
             make.top.equalTo(self.emailTextField.snp.bottom).offset(20)
-            make.left.equalTo(self.emailTextField)
-            make.right.equalTo(self.emailTextField)
-            make.height.equalTo(50)
+            make.width.equalToSuperview().multipliedBy(0.8)
+            make.centerX.equalToSuperview()
+            make.height.equalTo(50 * Dimension.shared.widthScale)
         }
     }
 }
