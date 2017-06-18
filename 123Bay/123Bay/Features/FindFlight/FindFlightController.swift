@@ -83,7 +83,6 @@ class FindFlightController: UIViewController {
     
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
-        menu.findFlightController = self
         return menu
     }()
     

@@ -25,6 +25,10 @@ class SettingMenuController: UIViewController {
     //MARK: Create Object
     var homeController: HomeViewController?
     var findFlightController: FindFlightController?
+    var listFlightsViewController: ListFlightsViewController?
+    var bookingFlightController: BookingFlightController?
+    var paymentController: PaymentController?
+    var successBookingController: SuccessBookingController?
     
     lazy var collectionViewSetting: UICollectionView = {
         let layout = UICollectionViewFlowLayout()

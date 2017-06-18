@@ -25,6 +25,11 @@ class BookingFlightController: UIViewController {
     fileprivate let arrayTitleBookingFlight: [TitleBookingFlight] = [TitleBookingFlight.init(imageName: "5-0", title: "CHUYẾN BAY CỦA BẠN"), TitleBookingFlight.init(imageName: "5-2", title: "THÔNG TIN LIÊN HỆ"), TitleBookingFlight.init(imageName: "5-3", title: "THÔNG TIN HÀNH KHÁCH")]
     
     //MARK: Create Object
+    lazy var menuSetting: SettingMenuController = {
+        let menu = SettingMenuController()
+        return menu
+    }()
+    
     private var imageBookingStep: UIImageView = {
         let imageConfig = UIImageView()
         imageConfig.contentMode = .scaleAspectFit
@@ -93,6 +98,48 @@ class BookingFlightController: UIViewController {
         setupViewImageBookingStep()
         setupViewLabelTitle()
         setupViewTableViewInfomation()
+        setupViewBackItem()
+        addMenuBarItem()
+    }
+    
+    func addMenuBarItem() {
+        let imageMenuBar = UIImage(named: "2-1")
+        let frameButton = CGRect(x: 8, y: 0, width: 20, height: 20)
+        let menuBarButton = BarButtonItem(imgaes: imageMenuBar, frame: frameButton, target: self
+            , action: #selector(BookingFlightController.showMenuSettingController))
+        navigationItem.rightBarButtonItem = menuBarButton
+    }
+    
+    //Function to show menuSettingController when user choose setting on NavigationBar
+    func showMenuSettingController() {
+        menuSetting.showMenuSetting()
+    }
+
+    func setupViewBackItem() {
+        let imageBackItem = UIImage(named: "Back")
+        let frameBackItem = CGRect(x: 0, y: 5, width: 15, height: 15)
+        let backItem = BarButtonItem(
+            imgaes: imageBackItem,
+            frame: frameBackItem,
+            target: self,
+            action: #selector(BookingFlightController.backItemPressed)
+        )
+        
+        backItem.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1).withAlphaComponent(1)
+        navigationItem.leftBarButtonItem = backItem
+        
+        let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width
+            , height: view.frame.height))
+        
+        titleLabel.text = " Đặt chỗ"
+        titleLabel.textColor = UIColor.white
+        titleLabel.font = UIFont.systemFont(ofSize: 15)
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 15)
+        navigationItem.titleView = titleLabel
+    }
+    
+    func backItemPressed() {
+        navigationController?.popViewController(animated: true)
     }
     
     private func setupViewBaseView() {
