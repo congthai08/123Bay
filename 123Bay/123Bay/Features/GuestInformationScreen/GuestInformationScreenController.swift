@@ -23,7 +23,7 @@ class GuestInformationScreenController: UIViewController {
     //MainView store all
     private var mainView: UIView = {
         let mainView = UIView()
-        mainView.backgroundColor = Theme.subColor
+        mainView.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         return mainView
     }()
     
@@ -534,7 +534,7 @@ class GuestInformationScreenController: UIViewController {
     private func setupForMainView() {
         view.addSubview(mainView)
         mainView.snp.makeConstraints { (make) in
-            make.top.equalToSuperview().offset(50)
+            make.top.equalTo(self.topLayoutGuide.snp.bottom)
             make.left.equalToSuperview()
             make.right.equalToSuperview()
             make.bottom.equalToSuperview()

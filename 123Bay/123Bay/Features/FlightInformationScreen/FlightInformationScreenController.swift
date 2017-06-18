@@ -13,6 +13,7 @@ var isRoundTrip: Bool = true
 
 //This controller show the information of guest flight
 
+
 class FlightInformationScreenController: UIViewController {
     
     //MARK: - Create variables
@@ -383,8 +384,7 @@ class FlightInformationScreenController: UIViewController {
     }
     
     func closeButton_Pressed() {
-        print("Trieu")
-        //TODO: Trieu
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLayoutSubviews() {

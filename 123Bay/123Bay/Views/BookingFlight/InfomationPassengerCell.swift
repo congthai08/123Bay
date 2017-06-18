@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol InfomationPassengerCellDelegate: class {
+    func presentInfomationPassengerController(_ viewController: UIViewController)
+}
+
 class InfomationPassengerCell: BaseTableViewCell {
     //MARK: Varibale
     var title: String = ""
@@ -17,6 +21,8 @@ class InfomationPassengerCell: BaseTableViewCell {
     fileprivate var numberRowOfCollectionView: Int = 1
     
     //MARK: Create Object
+    var delegate: InfomationPassengerCellDelegate?
+    
     lazy private var collectionViewInfo: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
@@ -85,6 +91,12 @@ extension InfomationPassengerCell: UICollectionViewDelegate, UICollectionViewDat
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: self.frame.width, height: self.frame.height)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let guestInformationScreenController = GuestInformationScreenController()
+        delegate?.presentInfomationPassengerController(guestInformationScreenController)
+    }
+    
 }
 
 

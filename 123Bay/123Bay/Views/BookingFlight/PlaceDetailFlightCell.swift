@@ -11,6 +11,8 @@ import UIKit
 class PlaceDetailFlightCell: BaseCollectionViewCell {
     
     //MARK: Variable
+    var delegate: YourFlightCelldelegate?
+    
     private var labelDeparture: UILabel = {
         let labelConfig = UILabel()
         
@@ -104,6 +106,13 @@ class PlaceDetailFlightCell: BaseCollectionViewCell {
             make.centerY.equalToSuperview()
             make.right.equalToSuperview().offset(-15)
         }
+        
+        buttonDetail.addTarget(self, action: #selector(PlaceDetailFlightCell.buttonDetailPressed), for: .touchUpInside)
+    }
+    
+    func buttonDetailPressed() {
+        let flightInformationScreenController = FlightInformationScreenController()
+        delegate?.presentInformationAssigmentController(flightInformationScreenController)
     }
     
     private func setupViewLineDevider() {

@@ -10,9 +10,12 @@ import Foundation
 import UIKit
 import SnapKit
 
+
+
 class BookingFlightController: UIViewController {
     
     //MARK: Variable
+    
     fileprivate let arrayTitle = ["1. Hành khách người lớn", "2. Hành khách trẻ em", "3. Hành khách em bé"]
     fileprivate let numberSectionTableViewInfomation: Int = 4
     fileprivate let numberRowInfomationPassengerSection: Int = 3
@@ -221,6 +224,7 @@ extension BookingFlightController: UITableViewDelegate, UITableViewDataSource {
         case 0:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: yourFlightCellId, for: indexPath) as? YourFlightCell else { return UITableViewCell() }
             
+            cell.delegate = self
             cell.selectionStyle = .none
             return cell
         case 1:
@@ -232,6 +236,7 @@ extension BookingFlightController: UITableViewDelegate, UITableViewDataSource {
         case 2:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: infomationPassengerCellId, for: indexPath) as? InfomationPassengerCell else { return UITableViewCell() }
             
+            cell.delegate = self
             cell.selectionStyle = .none
             
             cell.title = arrayTitle[indexPath.item]
@@ -276,4 +281,20 @@ extension BookingFlightController: SettingMenuControllerDeledate {
     func presentDetailMenuSetting(_ viewController: UIViewController) {
         navigationController?.pushViewController(viewController, animated: true)
     }
+}
+
+extension BookingFlightController: YourFlightCelldelegate {
+    
+    func presentInformationAssigmentController(_ viewController: UIViewController) {
+        present(viewController, animated: true, completion: nil)
+    }
+    
+}
+
+extension BookingFlightController: InfomationPassengerCellDelegate {
+    
+    func presentInfomationPassengerController(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    
 }

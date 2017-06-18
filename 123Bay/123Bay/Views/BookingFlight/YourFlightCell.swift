@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol YourFlightCelldelegate: class {
+    func presentInformationAssigmentController(_ viewController: UIViewController)
+}
+
 class YourFlightCell: BaseTableViewCell {
     //MARK: Variable
     fileprivate let numberCell = 4
@@ -16,6 +20,8 @@ class YourFlightCell: BaseTableViewCell {
     fileprivate let cellRefundMoneyId = "cellRefundMoneyId"
     
     //MARK: Create Object
+    var delegate: YourFlightCelldelegate?
+    
     lazy private var collectionViewInfoFlight: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
@@ -71,6 +77,7 @@ extension YourFlightCell: UICollectionViewDelegate, UICollectionViewDataSource, 
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellPlaceDetaiId, for: indexPath) as? PlaceDetailFlightCell else
             { return UICollectionViewCell() }
             
+            cell.delegate = self.delegate
             return cell
         case 3:
             guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellRefundMoneyId, for: indexPath) as? RefundMoneyCell else
@@ -102,6 +109,14 @@ extension YourFlightCell: UICollectionViewDelegate, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if indexPath.item == 0 {
+            let informationAssigmentController = FlightInformationScreenController()
+            delegate?.presentInformationAssigmentController(informationAssigmentController)
+        }
+    }
+    
 }
 
 
