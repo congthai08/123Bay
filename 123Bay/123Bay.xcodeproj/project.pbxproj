@@ -8,6 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0358E789E2D5087474B12B8E /* Pods_123Bay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A281E8DC8F6BC61F9ED191EF /* Pods_123Bay.framework */; };
+		047F92A81EF67E3800D9916B /* BaseAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92A71EF67E3800D9916B /* BaseAlertViewController.swift */; };
+		047F92AB1EF67EA600D9916B /* ContentOptionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92AA1EF67EA600D9916B /* ContentOptionsCollectionViewCell.swift */; };
+		047F92AD1EF67EAC00D9916B /* DisplayOptionsForListFlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92AC1EF67EAC00D9916B /* DisplayOptionsForListFlightsView.swift */; };
+		047F92AF1EF67EB300D9916B /* InformationFlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92AE1EF67EB300D9916B /* InformationFlightTableViewCell.swift */; };
+		047F92B11EF67EB900D9916B /* InformationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92B01EF67EB900D9916B /* InformationSearchView.swift */; };
+		047F92B41EF67F1500D9916B /* FilterOptionsCheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92B31EF67F1500D9916B /* FilterOptionsCheckBoxTableViewCell.swift */; };
+		047F92B61EF67F1C00D9916B /* FilterOptionsPriceRangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92B51EF67F1C00D9916B /* FilterOptionsPriceRangeTableViewCell.swift */; };
+		047F92B81EF67F2500D9916B /* FilterOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92B71EF67F2500D9916B /* FilterOptionsViewController.swift */; };
+		047F92BB1EF67F4E00D9916B /* ChangeDateOptionsAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92BA1EF67F4E00D9916B /* ChangeDateOptionsAlertController.swift */; };
+		047F92BD1EF67F5200D9916B /* ChangeDateOptionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92BC1EF67F5200D9916B /* ChangeDateOptionsCollectionViewCell.swift */; };
+		047F92BF1EF67F5700D9916B /* ChangeDateOptionsContentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92BE1EF67F5700D9916B /* ChangeDateOptionsContentCellView.swift */; };
+		047F92C11EF67F5D00D9916B /* ChangeDateOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92C01EF67F5D00D9916B /* ChangeDateOptionsView.swift */; };
+		047F92C41EF67F9700D9916B /* ArrangeOptionsAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92C31EF67F9700D9916B /* ArrangeOptionsAlertViewController.swift */; };
+		047F92C61EF67F9D00D9916B /* ArrangeOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92C51EF67F9D00D9916B /* ArrangeOptionsTableViewCell.swift */; };
+		047F92C81EF67FA300D9916B /* ArrangeOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92C71EF67FA300D9916B /* ArrangeOptionsView.swift */; };
+		047F92CB1EF67FF200D9916B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92CA1EF67FF200D9916B /* LoadingView.swift */; };
+		047F92CD1EF6803400D9916B /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92CC1EF6803400D9916B /* Icon.swift */; };
+		047F92D01EF6808E00D9916B /* ListFlightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92CF1EF6808E00D9916B /* ListFlightsViewController.swift */; };
+		047F92D31EF680A600D9916B /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92D21EF680A600D9916B /* LoadingViewController.swift */; };
+		047F92D51EF680DA00D9916B /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92D41EF680DA00D9916B /* UILabel.swift */; };
+		047F92D81EF6810700D9916B /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92D71EF6810700D9916B /* Dimension.swift */; };
+		047F92DA1EF6810D00D9916B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F92D91EF6810D00D9916B /* Theme.swift */; };
 		04F7CF2B1EF66CD60005859C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7CF2A1EF66CD60005859C /* AppDelegate.swift */; };
 		04F7CF351EF66CD60005859C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F7CF331EF66CD60005859C /* LaunchScreen.storyboard */; };
 		22D978281EF674B000865459 /* InfoFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978231EF674B000865459 /* InfoFlight.swift */; };
@@ -59,6 +81,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		047F92A71EF67E3800D9916B /* BaseAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAlertViewController.swift; sourceTree = "<group>"; };
+		047F92AA1EF67EA600D9916B /* ContentOptionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentOptionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		047F92AC1EF67EAC00D9916B /* DisplayOptionsForListFlightsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayOptionsForListFlightsView.swift; sourceTree = "<group>"; };
+		047F92AE1EF67EB300D9916B /* InformationFlightTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationFlightTableViewCell.swift; sourceTree = "<group>"; };
+		047F92B01EF67EB900D9916B /* InformationSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationSearchView.swift; sourceTree = "<group>"; };
+		047F92B31EF67F1500D9916B /* FilterOptionsCheckBoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOptionsCheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		047F92B51EF67F1C00D9916B /* FilterOptionsPriceRangeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOptionsPriceRangeTableViewCell.swift; sourceTree = "<group>"; };
+		047F92B71EF67F2500D9916B /* FilterOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterOptionsViewController.swift; sourceTree = "<group>"; };
+		047F92BA1EF67F4E00D9916B /* ChangeDateOptionsAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDateOptionsAlertController.swift; sourceTree = "<group>"; };
+		047F92BC1EF67F5200D9916B /* ChangeDateOptionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDateOptionsCollectionViewCell.swift; sourceTree = "<group>"; };
+		047F92BE1EF67F5700D9916B /* ChangeDateOptionsContentCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDateOptionsContentCellView.swift; sourceTree = "<group>"; };
+		047F92C01EF67F5D00D9916B /* ChangeDateOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDateOptionsView.swift; sourceTree = "<group>"; };
+		047F92C31EF67F9700D9916B /* ArrangeOptionsAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrangeOptionsAlertViewController.swift; sourceTree = "<group>"; };
+		047F92C51EF67F9D00D9916B /* ArrangeOptionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrangeOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		047F92C71EF67FA300D9916B /* ArrangeOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrangeOptionsView.swift; sourceTree = "<group>"; };
+		047F92CA1EF67FF200D9916B /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		047F92CC1EF6803400D9916B /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		047F92CF1EF6808E00D9916B /* ListFlightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListFlightsViewController.swift; sourceTree = "<group>"; };
+		047F92D21EF680A600D9916B /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		047F92D41EF680DA00D9916B /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		047F92D71EF6810700D9916B /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		047F92D91EF6810D00D9916B /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		04F7CF271EF66CD60005859C /* 123Bay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 123Bay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7CF2A1EF66CD60005859C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F7CF341EF66CD60005859C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,6 +170,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047F92A91EF67E9900D9916B /* ListFlights */ = {
+			isa = PBXGroup;
+			children = (
+				047F92C21EF67F8F00D9916B /* ArrangeOption */,
+				047F92B91EF67F4700D9916B /* ChangeDateOption */,
+				047F92B21EF67F0200D9916B /* FilterOption */,
+				047F92B01EF67EB900D9916B /* InformationSearchView.swift */,
+				047F92AE1EF67EB300D9916B /* InformationFlightTableViewCell.swift */,
+				047F92AC1EF67EAC00D9916B /* DisplayOptionsForListFlightsView.swift */,
+				047F92AA1EF67EA600D9916B /* ContentOptionsCollectionViewCell.swift */,
+			);
+			path = ListFlights;
+			sourceTree = "<group>";
+		};
+		047F92B21EF67F0200D9916B /* FilterOption */ = {
+			isa = PBXGroup;
+			children = (
+				047F92B71EF67F2500D9916B /* FilterOptionsViewController.swift */,
+				047F92B51EF67F1C00D9916B /* FilterOptionsPriceRangeTableViewCell.swift */,
+				047F92B31EF67F1500D9916B /* FilterOptionsCheckBoxTableViewCell.swift */,
+			);
+			path = FilterOption;
+			sourceTree = "<group>";
+		};
+		047F92B91EF67F4700D9916B /* ChangeDateOption */ = {
+			isa = PBXGroup;
+			children = (
+				047F92C01EF67F5D00D9916B /* ChangeDateOptionsView.swift */,
+				047F92BE1EF67F5700D9916B /* ChangeDateOptionsContentCellView.swift */,
+				047F92BC1EF67F5200D9916B /* ChangeDateOptionsCollectionViewCell.swift */,
+				047F92BA1EF67F4E00D9916B /* ChangeDateOptionsAlertController.swift */,
+			);
+			path = ChangeDateOption;
+			sourceTree = "<group>";
+		};
+		047F92C21EF67F8F00D9916B /* ArrangeOption */ = {
+			isa = PBXGroup;
+			children = (
+				047F92C71EF67FA300D9916B /* ArrangeOptionsView.swift */,
+				047F92C31EF67F9700D9916B /* ArrangeOptionsAlertViewController.swift */,
+				047F92C51EF67F9D00D9916B /* ArrangeOptionsTableViewCell.swift */,
+			);
+			path = ArrangeOption;
+			sourceTree = "<group>";
+		};
+		047F92C91EF67FEA00D9916B /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				047F92CA1EF67FF200D9916B /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		047F92CE1EF6808600D9916B /* ListFlights */ = {
+			isa = PBXGroup;
+			children = (
+				047F92CF1EF6808E00D9916B /* ListFlightsViewController.swift */,
+			);
+			path = ListFlights;
+			sourceTree = "<group>";
+		};
+		047F92D11EF6809F00D9916B /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				047F92D21EF680A600D9916B /* LoadingViewController.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		047F92D61EF6810000D9916B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				047F92D91EF6810D00D9916B /* Theme.swift */,
+				047F92D71EF6810700D9916B /* Dimension.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		04F7CF1E1EF66CD60005859C = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +293,7 @@
 		22D978221EF6747F00865459 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				047F92CC1EF6803400D9916B /* Icon.swift */,
 				22D978231EF674B000865459 /* InfoFlight.swift */,
 				22D978241EF674B000865459 /* Ticket.swift */,
 				22D978251EF674B000865459 /* TypeClass.swift */,
@@ -184,6 +307,7 @@
 		22D9782D1EF674EC00865459 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				047F92D61EF6810000D9916B /* Styles */,
 				22D9782E1EF6750400865459 /* Network */,
 			);
 			path = Common;
@@ -200,6 +324,7 @@
 		22D978311EF6755D00865459 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				047F92D41EF680DA00D9916B /* UILabel.swift */,
 				22D978321EF6757F00865459 /* ScreenTypeExtensions.swift */,
 				22D978331EF6757F00865459 /* UIColor.swift */,
 				22D978341EF6757F00865459 /* UIFont.swift */,
@@ -210,6 +335,8 @@
 		22D978381EF6759C00865459 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				047F92D11EF6809F00D9916B /* Loading */,
+				047F92CE1EF6808600D9916B /* ListFlights */,
 				22D9784C1EF6763A00865459 /* ChooseNumberPassenger */,
 				22D978491EF6762100865459 /* ChooseFlight */,
 				22D978461EF6760A00865459 /* TypeClass */,
@@ -273,6 +400,8 @@
 		22D9784F1EF6766200865459 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				047F92C91EF67FEA00D9916B /* Loading */,
+				047F92A91EF67E9900D9916B /* ListFlights */,
 				22D978501EF6767300865459 /* Base */,
 				22D978591EF676A500865459 /* BarButton */,
 				22D9785C1EF676BE00865459 /* BottomMenuBar */,
@@ -289,6 +418,7 @@
 		22D978501EF6767300865459 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				047F92A71EF67E3800D9916B /* BaseAlertViewController.swift */,
 				22D978511EF6768100865459 /* BaseCollectionViewCell.swift */,
 				22D978521EF6768100865459 /* BaseTableViewCell.swift */,
 				22D978531EF6768100865459 /* BaseUIView.swift */,
@@ -517,16 +647,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D9782C1EF674B000865459 /* UserInfoTicket.swift in Sources */,
+				047F92A81EF67E3800D9916B /* BaseAlertViewController.swift in Sources */,
 				22D978821EF6773900865459 /* TypeClassView.swift in Sources */,
 				22D978281EF674B000865459 /* InfoFlight.swift in Sources */,
 				22D9788F1EF6776C00865459 /* TitleChoosePassengerCell.swift in Sources */,
 				22D978571EF6768100865459 /* BaseUIView.swift in Sources */,
+				047F92B11EF67EB900D9916B /* InformationSearchView.swift in Sources */,
 				22D978701EF676FB00865459 /* SlideImageCell.swift in Sources */,
 				22D9782B1EF674B000865459 /* TypePassenger.swift in Sources */,
+				047F92C11EF67F5D00D9916B /* ChangeDateOptionsView.swift in Sources */,
 				04F7CF2B1EF66CD60005859C /* AppDelegate.swift in Sources */,
 				22D978781EF6771600865459 /* BaseFindFlightCell.swift in Sources */,
+				047F92BD1EF67F5200D9916B /* ChangeDateOptionsCollectionViewCell.swift in Sources */,
 				22D9787D1EF6771600865459 /* FindFlightTextCell.swift in Sources */,
 				22D978661EF676E300865459 /* SettingCellWithLine.swift in Sources */,
+				047F92B81EF67F2500D9916B /* FilterOptionsViewController.swift in Sources */,
 				22D9785F1EF676C400865459 /* BottomMenuBar.swift in Sources */,
 				22D978291EF674B000865459 /* Ticket.swift in Sources */,
 				22D978371EF6757F00865459 /* UIFont.swift in Sources */,
@@ -537,31 +672,48 @@
 				22D9786E1EF676FB00865459 /* MainMenuCollectionViewcell.swift in Sources */,
 				22D9787B1EF6771600865459 /* FindFlightPersonCell.swift in Sources */,
 				22D9782A1EF674B000865459 /* TypeClass.swift in Sources */,
+				047F92B41EF67F1500D9916B /* FilterOptionsCheckBoxTableViewCell.swift in Sources */,
 				22D9784B1EF6762A00865459 /* ChooseFlightController.swift in Sources */,
 				22D9787A1EF6771600865459 /* FindFlightDateCell.swift in Sources */,
+				047F92CB1EF67FF200D9916B /* LoadingView.swift in Sources */,
+				047F92CD1EF6803400D9916B /* Icon.swift in Sources */,
 				22D978561EF6768100865459 /* BaseTableViewCell.swift in Sources */,
 				22D978451EF675F700865459 /* FindFlightController.swift in Sources */,
+				047F92DA1EF6810D00D9916B /* Theme.swift in Sources */,
+				047F92B61EF67F1C00D9916B /* FilterOptionsPriceRangeTableViewCell.swift in Sources */,
 				22D978601EF676C400865459 /* BottomMenuBarCell.swift in Sources */,
 				22D9788E1EF6776C00865459 /* PickerChoosePassengerCell.swift in Sources */,
 				22D978441EF675F700865459 /* ExtensionFindFlightController.swift in Sources */,
+				047F92D31EF680A600D9916B /* LoadingViewController.swift in Sources */,
 				22D978551EF6768100865459 /* BaseCollectionViewCell.swift in Sources */,
+				047F92D01EF6808E00D9916B /* ListFlightsViewController.swift in Sources */,
+				047F92AD1EF67EAC00D9916B /* DisplayOptionsForListFlightsView.swift in Sources */,
 				22D9788D1EF6776C00865459 /* PassengerView.swift in Sources */,
 				22D9787C1EF6771600865459 /* FindFlightSwitchCell.swift in Sources */,
 				22D978861EF6775700865459 /* ChooseFlightCell.swift in Sources */,
+				047F92D81EF6810700D9916B /* Dimension.swift in Sources */,
 				22D978581EF6768100865459 /* BaseViewController.swift in Sources */,
+				047F92BB1EF67F4E00D9916B /* ChangeDateOptionsAlertController.swift in Sources */,
+				047F92BF1EF67F5700D9916B /* ChangeDateOptionsContentCellView.swift in Sources */,
 				22D978301EF6751B00865459 /* NetworkClient.swift in Sources */,
 				22D9786D1EF676FB00865459 /* BannerCollectionViewCell.swift in Sources */,
 				22D9785B1EF676AC00865459 /* BarButtonItem.swift in Sources */,
 				22D978351EF6757F00865459 /* ScreenTypeExtensions.swift in Sources */,
+				047F92C41EF67F9700D9916B /* ArrangeOptionsAlertViewController.swift in Sources */,
 				22D978811EF6773900865459 /* TypeClassCell.swift in Sources */,
+				047F92C61EF67F9D00D9916B /* ArrangeOptionsTableViewCell.swift in Sources */,
+				047F92AF1EF67EB300D9916B /* InformationFlightTableViewCell.swift in Sources */,
 				22D9784E1EF6764600865459 /* ChooseNumberPassengerController.swift in Sources */,
 				22D978651EF676E300865459 /* SettingCell.swift in Sources */,
 				22D978361EF6757F00865459 /* UIColor.swift in Sources */,
+				047F92D51EF680DA00D9916B /* UILabel.swift in Sources */,
 				22D978901EF6776C00865459 /* TitleDetailCell.swift in Sources */,
 				22D978481EF6761400865459 /* TypeClassController.swift in Sources */,
 				22D9783D1EF675BD00865459 /* HomeViewController.swift in Sources */,
 				22D9783C1EF675BD00865459 /* ExtensionHomeViewController.swift in Sources */,
+				047F92C81EF67FA300D9916B /* ArrangeOptionsView.swift in Sources */,
 				22D978401EF675D800865459 /* SettingMenuController.swift in Sources */,
+				047F92AB1EF67EA600D9916B /* ContentOptionsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

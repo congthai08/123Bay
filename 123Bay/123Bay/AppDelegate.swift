@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AMScrollingNavbar
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,11 +18,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let layout = UICollectionViewFlowLayout()
-        layout.scrollDirection = .vertical
+        let navigation = UINavigationBar.appearance()
+        // Set navigation bar tint / background colour
+        navigation.barTintColor = Theme.mainColor
         
+        // Set Navigation bar Title colour
+        navigation.titleTextAttributes = [NSForegroundColorAttributeName : Theme.defaultColor]
         
-        window?.rootViewController = ScrollingNavigationController(rootViewController: HomeViewController(collectionViewLayout: layout))
+        // Set navigation bar ItemButton tint colour
+        navigation.tintColor = Theme.defaultColor
+        
+        // Set Navigation bar background image
+        navigation.setBackgroundImage(UIImage(), for: .default)
+        
+        //Set navigation bar Back button tint colour
+        navigation.tintColor = Theme.defaultColor
+        
+        window?.rootViewController = LoadingViewController()
         
         //Hide status bar
         application.isStatusBarHidden = true

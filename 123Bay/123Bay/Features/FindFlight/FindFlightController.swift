@@ -115,6 +115,11 @@ class FindFlightController: UIViewController {
         }
     }
     
+    func buttonFindFlightPressed() {
+        let listFlightsViewController = ListFlightsViewController()
+        self.navigationController?.pushViewController(listFlightsViewController, animated: true)
+    }
+    
     func setupViewBackItem() {
         let imageBackItem = UIImage(named: "Back")
         let frameBackItem = CGRect(x: 0, y: 5, width: 15, height: 15)
@@ -160,6 +165,12 @@ class FindFlightController: UIViewController {
             make.height.equalToSuperview().dividedBy(15)
             make.bottom.equalTo(self.bottomMenuBar.snp.top).offset(-20)
         }
+        
+        buttonFindFlight.addTarget(
+            self,
+            action: #selector(FindFlightController.buttonFindFlightPressed),
+            for: .touchUpInside
+        )
     }
     
     func addMenuBarItem() {

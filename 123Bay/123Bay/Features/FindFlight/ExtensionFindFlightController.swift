@@ -85,7 +85,6 @@ extension FindFlightController: UITableViewDelegate, UITableViewDataSource {
         }
         
         return heightCollectionViewCell
-        
     }
     
     //MARK: - Setup line spacing for 2 items

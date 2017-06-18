@@ -55,4 +55,36 @@ extension UIFont {
             return UIFont.systemFont(ofSize: size)
         }
     }
+    
+    class func titleFont(weight: CGFloat = UIFontWeightMedium) -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.titleFontSize, weight: weight)
+    }
+    
+    class func subTitleFont() -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.subTitleFontSize, weight: UIFontWeightRegular)
+    }
+    
+    class func contentFont() -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.contentFontSize, weight: UIFontWeightRegular)
+    }
+    
+    class func smallContentFont() -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.subContentFontSize, weight: UIFontWeightRegular)
+    }
+    
+    class func mediumFont(size: CGFloat = 12) -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.scaleFont(size), weight: UIFontWeightMedium)
+    }
+    
+    class func regularFont(size: CGFloat = 12) -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.scaleFont(size), weight: UIFontWeightRegular)
+    }
+    
+    class func semiBoldFont(_ size: CGFloat = 12) -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.scaleFont(size), weight: UIFontWeightSemibold)
+    }
+    
+    class func boldFont(_ size: CGFloat = 12) -> UIFont? {
+        return UIFont.systemFont(ofSize: Dimension.shared.scaleFont(size), weight: UIFontWeightBold)
+    }
 }
