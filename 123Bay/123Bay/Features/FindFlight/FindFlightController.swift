@@ -83,6 +83,7 @@ class FindFlightController: UIViewController {
     
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
+        menu.delegate = self
         return menu
     }()
     
@@ -212,10 +213,6 @@ class FindFlightController: UIViewController {
         case 2:
             let sourceCalendar = CalendarController()
             navigationController?.pushViewController(sourceCalendar, animated: true)
-            break
-        case 3:
-            let destinationCalendar = CalendarController()
-            navigationController?.pushViewController(destinationCalendar, animated: true)
             break
         case 4:
             chooseNumberPassenger.show()

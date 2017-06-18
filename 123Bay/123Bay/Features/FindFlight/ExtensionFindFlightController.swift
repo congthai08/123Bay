@@ -111,3 +111,11 @@ extension FindFlightController: UITableViewDelegate, UITableViewDataSource {
         }
     }
 }
+
+extension FindFlightController: SettingMenuControllerDeledate {
+    
+    func presentDetailMenuSetting(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    
+}

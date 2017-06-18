@@ -66,7 +66,6 @@ class InformationAssignmentScreenController: UIViewController {
     //MARK: - viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
         view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         setupForInfoLabel()
         setupForEmailLabel()
@@ -75,6 +74,38 @@ class InformationAssignmentScreenController: UIViewController {
         setupForAssignButton()
         //Set data
         setData()
+        setupViewNavigationBar()
+        setupBarButtonItem()
+    }
+    
+    private func setupViewNavigationBar() {
+        let bar = self.navigationController?.navigationBar
+        bar?.barTintColor = Theme.shared.navigationBarTintColor
+        bar?.backgroundColor = Theme.shared.navigationBarTintColor
+        
+    }
+    
+    private func setupBarButtonItem() {
+        let imageBackItem = UIImage(named: "Back")
+        let frameBackItem = CGRect(x: 0, y: 5, width: 15, height: 15)
+        let backItem = BarButtonItem(imgaes: imageBackItem, frame: frameBackItem, target: self
+            , action: #selector(InformationAssignmentScreenController.popViewcontroller))
+        
+        backItem.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1).withAlphaComponent(1)
+        navigationItem.leftBarButtonItem = backItem
+        
+        let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width
+            , height: view.frame.height))
+        
+        titleLabel.text = "Đăng kí nhận bản tin"
+        titleLabel.textColor = UIColor.white
+        titleLabel.font = UIFont.systemFont(ofSize: 15)
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 15)
+        navigationItem.titleView = titleLabel
+    }
+    
+    func popViewcontroller() {
+        navigationController?.popViewController(animated: true)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

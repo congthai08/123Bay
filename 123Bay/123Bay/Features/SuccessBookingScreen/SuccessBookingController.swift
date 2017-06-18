@@ -16,6 +16,7 @@ class SuccessBookingController: UIViewController {
     //MARK: Create variable
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
+        menu.delegate = self
         return menu
     }()
     
@@ -256,4 +257,12 @@ class SuccessBookingController: UIViewController {
             make.height.equalTo(20)
         }
     }
+}
+
+extension SuccessBookingController: SettingMenuControllerDeledate {
+    
+    func presentDetailMenuSetting(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    
 }

@@ -29,7 +29,7 @@ class BillVATCell: BaseCollectionViewCell {
         
         imageConfig.isUserInteractionEnabled = true
         imageConfig.contentMode = .scaleAspectFit
-        imageConfig.image = UIImage(named: "5-6")
+        imageConfig.image = UIImage(named: "5-7")
         imageConfig.isHidden = true
         return imageConfig
     }()
@@ -106,6 +106,12 @@ class BillVATCell: BaseCollectionViewCell {
             make.centerY.equalToSuperview()
             make.right.equalToSuperview().offset(-15)
         }
+        
+        buttonDetail.addTarget(self, action: #selector(BillVATCell.buttonDetailPressed), for: .touchUpInside)
+    }
+    
+    func buttonDetailPressed() {
+        bookingFlightController?.showBillVATCONtroller()
     }
     
     //MARK: Other funtion

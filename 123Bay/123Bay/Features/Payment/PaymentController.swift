@@ -24,6 +24,7 @@ class PaymentController: UIViewController {
     //MARK: Create Object
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
+        menu.delegate = self
         return menu
     }()
     
@@ -245,6 +246,14 @@ extension PaymentController: FooterPaymentCellDelegate {
     
     func prsentSuccessfullBookingController(_ controller: UIViewController) {
         self.navigationController?.pushViewController(controller, animated: true)
+    }
+    
+}
+
+extension PaymentController: SettingMenuControllerDeledate {
+    
+    func presentDetailMenuSetting(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
     }
     
 }

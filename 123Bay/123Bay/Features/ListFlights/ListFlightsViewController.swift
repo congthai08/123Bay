@@ -51,6 +51,7 @@ class ListFlightsViewController: BaseViewController {
     
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
+        menu.delegate = self
         return menu
     }()
     
@@ -176,4 +177,12 @@ extension ListFlightsViewController: DisplayOptionsForListFlightsDelegate {
     func viewControllerNeedPresentation(_ viewController: UIViewController) {
         self.present(viewController, animated: true, completion: nil)
     }
+}
+
+extension ListFlightsViewController: SettingMenuControllerDeledate {
+    
+    func presentDetailMenuSetting(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    
 }

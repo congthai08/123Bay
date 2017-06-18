@@ -27,6 +27,7 @@ class BookingFlightController: UIViewController {
     //MARK: Create Object
     lazy var menuSetting: SettingMenuController = {
         let menu = SettingMenuController()
+        menu.delegate = self
         return menu
     }()
     
@@ -267,5 +268,12 @@ extension BookingFlightController: UITableViewDelegate, UITableViewDataSource {
             return 0
         }
         return 40
+    }
+}
+
+extension BookingFlightController: SettingMenuControllerDeledate {
+    
+    func presentDetailMenuSetting(_ viewController: UIViewController) {
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }
