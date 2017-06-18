@@ -22,9 +22,11 @@ class ListFlightsViewController: BaseViewController {
     
     // MARK: Define controls
     let stepImageView: UIImageView = {
-        let imageView: UIImageView = UIImageView(image: #imageLiteral(resourceName: "1 "))
+        let imageView: UIImageView = UIImageView(image: UIImage(named: "1"))
+        
         imageView.backgroundColor = Theme.defaultColor
         imageView.contentMode = .scaleAspectFit
+        
         return imageView
     }()
     
@@ -112,9 +114,14 @@ extension ListFlightsViewController: UITableViewDelegate, UITableViewDataSource 
         let cell = tableView.dequeueReusableCell(
             withIdentifier: "InformationFlightTableViewCell",
             for: indexPath
-        )
+        ) as! InformationFlightTableViewCell
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let bookingFlightController = BookingFlightController()
+        navigationController?.pushViewController(bookingFlightController, animated: true)
     }
 }
 

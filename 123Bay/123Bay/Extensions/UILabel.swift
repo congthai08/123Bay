@@ -41,6 +41,23 @@ extension UILabel {
         self.layer.cornerRadius = corner
         self.clipsToBounds = true
     }
+    
+    func getHeigh(width: CGFloat) -> CGFloat {
+        let size = CGSize(width: width, height: 1000)
+        let option = NSStringDrawingOptions.usesFontLeading.union(NSStringDrawingOptions.usesLineFragmentOrigin)
+        let estimatedRect = NSString(string: self.text!).boundingRect(with: size, options: option, attributes: nil, context: nil)
+        
+        return estimatedRect.size.height
+    }
+    
+    func getWidth(height: CGFloat) -> CGFloat {
+        let size = CGSize(width: 1000, height: height)
+        let option = NSStringDrawingOptions.usesFontLeading.union(NSStringDrawingOptions.usesLineFragmentOrigin)
+        let estimatesRect = NSString(string: self.text!).boundingRect(with: size, options: option, attributes: nil, context: nil)
+        
+        return estimatesRect.size.width
+    }
+
 }
 
 func doubleTextAttribute(text1: String, text2: String, color1: UIColor, color2: UIColor) -> NSMutableAttributedString {

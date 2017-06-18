@@ -32,6 +32,62 @@ class Dimension {
         heightScreen = UIScreen.main.bounds.height
     }
     
+    var titleFontSize: CGFloat {
+        return 15 * widthScale
+    }
+    
+    var subTitleFontSize: CGFloat {
+        return 14 * widthScale
+    }
+    
+    var smallTitleButtonFontSize: CGFloat {
+        return 13 * widthScale
+    }
+    
+    var mediumButtonFontSize: CGFloat {
+        return 14 * widthScale
+    }
+    
+    var largeButtonFontSize: CGFloat {
+        return 15 * widthScale
+    }
+    
+    var largeContentFontSize: CGFloat {
+        return 15 * widthScale
+    }
+    
+    var mediumContentFontSize: CGFloat {
+        return 14 * widthScale
+    }
+    
+    var smallContentFontSize: CGFloat {
+        return 13 * widthScale
+    }
+    
+    var placeholherTextfieldFontSize: CGFloat {
+        return 13 * widthScale
+    }
+    
+    var pageLeftMarging: CGFloat {
+        return 16 * widthScale
+    }
+    
+    var pageRightMarging: CGFloat {
+        return 16 * widthScale
+    }
+    
+    var cornerRadius: CGFloat {
+        return 5 * widthScale
+    }
+    
+    var bottomMargin: CGFloat {
+        return 15 * widthScale
+    }
+    
+    var topMargin: CGFloat {
+        return 15 * widthScale
+    }
+    
     var sideContentPadding: CGFloat {
         return 18 * widthScale
     }
@@ -52,13 +108,13 @@ class Dimension {
         return 16 * widthScale
     }
     
-    var titleFontSize: CGFloat {
-        return 18 * widthScale
-    }
+//    var titleFontSize: CGFloat {
+//        return 18 * widthScale
+//    }
     
-    var subTitleFontSize: CGFloat {
-        return 17 * widthScale
-    }
+//    var subTitleFontSize: CGFloat {
+//        return 17 * widthScale
+//    }
     
     var contentFontSize: CGFloat {
         return 16 * widthScale
@@ -76,4 +132,8 @@ class Dimension {
     static let smallMarginInverse = -1 * smallMargin
     static let normalMargin = 16
     static let normalMarginInverse = -1 * normalMargin
+    
+    static let lagreAlpha: CGFloat = 0.75
+    static let mediumAlpha: CGFloat = 0.5
+    static let smallAlpha: CGFloat = 0.25
 }

@@ -16,6 +16,8 @@ class SuccessBookingController: UIViewController {
     //MARK: Create variable
     private var bannerImage: UIImageView = {
         let bannerImage = UIImageView()
+        bannerImage.contentMode = .scaleAspectFit
+        bannerImage.image = UIImage(named: "1")
         return bannerImage
     }()
     
@@ -103,7 +105,6 @@ class SuccessBookingController: UIViewController {
     
     //MARK: - Set data
     func setData() {
-        bannerImage.image = #imageLiteral(resourceName: "banner")
         imagePlane.image = #imageLiteral(resourceName: "7")
         labelBookingSuccess.text = "ĐẶT VÉ THÀNH CÔNG"
         labelTotalMoney.attributedText =
@@ -124,10 +125,10 @@ class SuccessBookingController: UIViewController {
     private func setupForBannerImage() {
         view.addSubview(bannerImage)
         bannerImage.snp.makeConstraints { (make) in
-            make.top.equalToSuperview().offset(70)
+            make.top.equalTo(self.topLayoutGuide.snp.bottom)
             make.left.equalToSuperview()
             make.right.equalToSuperview()
-            make.height.equalToSuperview().dividedBy(9)
+            make.height.equalTo(44).multipliedBy(Dimension.shared.widthScale)
         }
     }
     

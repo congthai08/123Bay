@@ -23,6 +23,65 @@ class Theme {
     private init() {
         
     }
+    //feature trieuMH5
+    var navigationBarTintColor: UIColor {
+        return UIColor.rgbColor(red: 56, green: 158, blue: 277, alpha: 1)
+    }
+    
+    var baseViewBackgroundColor: UIColor {
+        return UIColor(white: 1, alpha: 1)
+    }
+    
+    var darkBackgroundColor: UIColor {
+        return UIColor.rgbColor(red: 235, green: 235, blue: 235, alpha: 1)
+    }
+    
+    var lineDeviderColor: UIColor {
+        return UIColor(white: 0.7, alpha: 0.3)
+    }
+    
+    var lineWhileDeviderColor: UIColor {
+        return UIColor(white: 1, alpha: 1)
+    }
+    
+    var yellowButtonColor: UIColor {
+        return UIColor.rgbColor(red: 245, green: 109, blue: 32, alpha: 1)
+    }
+    
+    //MARK: Font size
+    var blueTextColor: UIColor {
+        return UIColor.rgbColor(red: 56, green: 158, blue: 277, alpha: 1)
+    }
+    
+    var darkBlueTextColor: UIColor {
+        return UIColor.rgbColor(red: 60, green: 108, blue: 147, alpha: 1)
+    }
+    
+    var darkTextColor: UIColor {
+        return UIColor(white: 0.8, alpha: 1)
+    }
+    
+    var titleColor: UIColor {
+        return UIColor(white: 1, alpha: 1)
+    }
+    
+    var titleTextColor: UIColor {
+        return UIColor(white: 0, alpha: 1)
+    }
+    
+    var highlightTextColor: UIColor {
+        return UIColor.rgbColor(red: 238, green: 0, blue: 0, alpha: 1)
+    }
+    
+    var contentTextColor: UIColor {
+        return UIColor(white: 0, alpha: 1)
+    }
+    
+    var borderBoxColor: UIColor {
+        return UIColor(white: 0.6, alpha: 0.6)
+    }
+    
+    //-----------------
     
     // Alert
     var alertBackgroundColor: UIColor {

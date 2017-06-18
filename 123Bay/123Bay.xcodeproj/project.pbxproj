@@ -78,6 +78,38 @@
 		22D9788F1EF6776C00865459 /* TitleChoosePassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9788B1EF6776C00865459 /* TitleChoosePassengerCell.swift */; };
 		22D978901EF6776C00865459 /* TitleDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D9788C1EF6776C00865459 /* TitleDetailCell.swift */; };
 		22D978921EF67B9F00865459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D978911EF67B9F00865459 /* Assets.xcassets */; };
+		22D978B21EF699FD00865459 /* TitleBookingFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978B11EF699FD00865459 /* TitleBookingFlight.swift */; };
+		22D978B41EF69AC400865459 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978B31EF69AC400865459 /* UITextView.swift */; };
+		22D978B71EF69AE600865459 /* BookingFlightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978B61EF69AE600865459 /* BookingFlightController.swift */; };
+		22D978BA1EF69B0500865459 /* BillVATController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978B91EF69B0500865459 /* BillVATController.swift */; };
+		22D978BD1EF69B1F00865459 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978BC1EF69B1F00865459 /* PaymentController.swift */; };
+		22D978C11EF69B4700865459 /* MenuBarBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978BF1EF69B4700865459 /* MenuBarBank.swift */; };
+		22D978C21EF69B4700865459 /* MenuBarBankCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978C01EF69B4700865459 /* MenuBarBankCelll.swift */; };
+		22D978C41EF69B8C00865459 /* BaseHeaderFooterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978C31EF69B8C00865459 /* BaseHeaderFooterTableView.swift */; };
+		22D978D31EF69BFE00865459 /* BillVATCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978C71EF69BFE00865459 /* BillVATCell.swift */; };
+		22D978D41EF69BFE00865459 /* BookFlightHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978C81EF69BFE00865459 /* BookFlightHeaderView.swift */; };
+		22D978D51EF69BFE00865459 /* DepartureInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978C91EF69BFE00865459 /* DepartureInfoCell.swift */; };
+		22D978D61EF69BFE00865459 /* InfomationContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CA1EF69BFE00865459 /* InfomationContactCell.swift */; };
+		22D978D71EF69BFE00865459 /* InfomationPassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CB1EF69BFE00865459 /* InfomationPassengerCell.swift */; };
+		22D978D81EF69BFE00865459 /* LuggagePassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CC1EF69BFE00865459 /* LuggagePassengerCell.swift */; };
+		22D978D91EF69BFE00865459 /* NamePassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CD1EF69BFE00865459 /* NamePassengerCell.swift */; };
+		22D978DA1EF69BFE00865459 /* PlaceDetailFlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CE1EF69BFE00865459 /* PlaceDetailFlightCell.swift */; };
+		22D978DB1EF69BFE00865459 /* RefundMoneyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978CF1EF69BFE00865459 /* RefundMoneyCell.swift */; };
+		22D978DC1EF69BFE00865459 /* TextFieldInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978D01EF69BFE00865459 /* TextFieldInfoCell.swift */; };
+		22D978DD1EF69BFE00865459 /* TotalMoneyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978D11EF69BFE00865459 /* TotalMoneyCell.swift */; };
+		22D978DE1EF69BFE00865459 /* YourFlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978D21EF69BFE00865459 /* YourFlightCell.swift */; };
+		22D978EB1EF69C2000865459 /* BookingCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E01EF69C2000865459 /* BookingCodeView.swift */; };
+		22D978EC1EF69C2000865459 /* DeatailTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E11EF69C2000865459 /* DeatailTransactionCell.swift */; };
+		22D978ED1EF69C2000865459 /* DetailInfomationPassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E21EF69C2000865459 /* DetailInfomationPassengerCell.swift */; };
+		22D978EE1EF69C2000865459 /* FooterPaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E31EF69C2000865459 /* FooterPaymentCell.swift */; };
+		22D978EF1EF69C2000865459 /* HeaderPaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E41EF69C2000865459 /* HeaderPaymentCell.swift */; };
+		22D978F01EF69C2000865459 /* ListPassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E51EF69C2000865459 /* ListPassengerCell.swift */; };
+		22D978F11EF69C2000865459 /* NameDayOfBirthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E61EF69C2000865459 /* NameDayOfBirthCell.swift */; };
+		22D978F21EF69C2000865459 /* PaymentInfomationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E71EF69C2000865459 /* PaymentInfomationCell.swift */; };
+		22D978F31EF69C2000865459 /* PriceTicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E81EF69C2000865459 /* PriceTicketView.swift */; };
+		22D978F41EF69C2000865459 /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978E91EF69C2000865459 /* TransactionCell.swift */; };
+		22D978F51EF69C2000865459 /* ViewFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978EA1EF69C2000865459 /* ViewFlight.swift */; };
+		22D978F71EF69C5700865459 /* BaseFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D978F61EF69C5700865459 /* BaseFooterView.swift */; };
 		27C51C151EF68CF000E485E4 /* CelebrationDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C141EF68CF000E485E4 /* CelebrationDate.swift */; };
 		27C51C191EF68E6000E485E4 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C161EF68E6000E485E4 /* UICollectionView.swift */; };
 		27C51C1A1EF68E6000E485E4 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C171EF68E6000E485E4 /* UIImageView.swift */; };
@@ -93,7 +125,6 @@
 		27C51C331EF6955400E485E4 /* FlightInformationScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C321EF6955400E485E4 /* FlightInformationScreenController.swift */; };
 		27C51C361EF6957600E485E4 /* GuestInformationScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C351EF6957600E485E4 /* GuestInformationScreenController.swift */; };
 		27C51C391EF6959700E485E4 /* InformationAssignmentScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C381EF6959700E485E4 /* InformationAssignmentScreenController.swift */; };
-		27C51C3B1EF695E900E485E4 /* BaseFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C3A1EF695E900E485E4 /* BaseFooterView.swift */; };
 		27C51C401EF6961400E485E4 /* DetailPriceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C3D1EF6961400E485E4 /* DetailPriceCell.swift */; };
 		27C51C411EF6961400E485E4 /* FooterForDetailPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C3E1EF6961400E485E4 /* FooterForDetailPriceView.swift */; };
 		27C51C421EF6961400E485E4 /* TypeTripCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C51C3F1EF6961400E485E4 /* TypeTripCell.swift */; };
@@ -174,6 +205,38 @@
 		22D9788B1EF6776C00865459 /* TitleChoosePassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleChoosePassengerCell.swift; sourceTree = "<group>"; };
 		22D9788C1EF6776C00865459 /* TitleDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleDetailCell.swift; sourceTree = "<group>"; };
 		22D978911EF67B9F00865459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22D978B11EF699FD00865459 /* TitleBookingFlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleBookingFlight.swift; sourceTree = "<group>"; };
+		22D978B31EF69AC400865459 /* UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		22D978B61EF69AE600865459 /* BookingFlightController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingFlightController.swift; sourceTree = "<group>"; };
+		22D978B91EF69B0500865459 /* BillVATController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillVATController.swift; sourceTree = "<group>"; };
+		22D978BC1EF69B1F00865459 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		22D978BF1EF69B4700865459 /* MenuBarBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarBank.swift; sourceTree = "<group>"; };
+		22D978C01EF69B4700865459 /* MenuBarBankCelll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBarBankCelll.swift; sourceTree = "<group>"; };
+		22D978C31EF69B8C00865459 /* BaseHeaderFooterTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseHeaderFooterTableView.swift; sourceTree = "<group>"; };
+		22D978C71EF69BFE00865459 /* BillVATCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillVATCell.swift; sourceTree = "<group>"; };
+		22D978C81EF69BFE00865459 /* BookFlightHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFlightHeaderView.swift; sourceTree = "<group>"; };
+		22D978C91EF69BFE00865459 /* DepartureInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartureInfoCell.swift; sourceTree = "<group>"; };
+		22D978CA1EF69BFE00865459 /* InfomationContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfomationContactCell.swift; sourceTree = "<group>"; };
+		22D978CB1EF69BFE00865459 /* InfomationPassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfomationPassengerCell.swift; sourceTree = "<group>"; };
+		22D978CC1EF69BFE00865459 /* LuggagePassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LuggagePassengerCell.swift; sourceTree = "<group>"; };
+		22D978CD1EF69BFE00865459 /* NamePassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamePassengerCell.swift; sourceTree = "<group>"; };
+		22D978CE1EF69BFE00865459 /* PlaceDetailFlightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailFlightCell.swift; sourceTree = "<group>"; };
+		22D978CF1EF69BFE00865459 /* RefundMoneyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundMoneyCell.swift; sourceTree = "<group>"; };
+		22D978D01EF69BFE00865459 /* TextFieldInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldInfoCell.swift; sourceTree = "<group>"; };
+		22D978D11EF69BFE00865459 /* TotalMoneyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalMoneyCell.swift; sourceTree = "<group>"; };
+		22D978D21EF69BFE00865459 /* YourFlightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourFlightCell.swift; sourceTree = "<group>"; };
+		22D978E01EF69C2000865459 /* BookingCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingCodeView.swift; sourceTree = "<group>"; };
+		22D978E11EF69C2000865459 /* DeatailTransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeatailTransactionCell.swift; sourceTree = "<group>"; };
+		22D978E21EF69C2000865459 /* DetailInfomationPassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInfomationPassengerCell.swift; sourceTree = "<group>"; };
+		22D978E31EF69C2000865459 /* FooterPaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterPaymentCell.swift; sourceTree = "<group>"; };
+		22D978E41EF69C2000865459 /* HeaderPaymentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderPaymentCell.swift; sourceTree = "<group>"; };
+		22D978E51EF69C2000865459 /* ListPassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPassengerCell.swift; sourceTree = "<group>"; };
+		22D978E61EF69C2000865459 /* NameDayOfBirthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameDayOfBirthCell.swift; sourceTree = "<group>"; };
+		22D978E71EF69C2000865459 /* PaymentInfomationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfomationCell.swift; sourceTree = "<group>"; };
+		22D978E81EF69C2000865459 /* PriceTicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceTicketView.swift; sourceTree = "<group>"; };
+		22D978E91EF69C2000865459 /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+		22D978EA1EF69C2000865459 /* ViewFlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFlight.swift; sourceTree = "<group>"; };
+		22D978F61EF69C5700865459 /* BaseFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFooterView.swift; sourceTree = "<group>"; };
 		27C51C141EF68CF000E485E4 /* CelebrationDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationDate.swift; sourceTree = "<group>"; };
 		27C51C161EF68E6000E485E4 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		27C51C171EF68E6000E485E4 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
@@ -189,7 +252,6 @@
 		27C51C321EF6955400E485E4 /* FlightInformationScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInformationScreenController.swift; sourceTree = "<group>"; };
 		27C51C351EF6957600E485E4 /* GuestInformationScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestInformationScreenController.swift; sourceTree = "<group>"; };
 		27C51C381EF6959700E485E4 /* InformationAssignmentScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationAssignmentScreenController.swift; sourceTree = "<group>"; };
-		27C51C3A1EF695E900E485E4 /* BaseFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFooterView.swift; sourceTree = "<group>"; };
 		27C51C3D1EF6961400E485E4 /* DetailPriceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPriceCell.swift; sourceTree = "<group>"; };
 		27C51C3E1EF6961400E485E4 /* FooterForDetailPriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterForDetailPriceView.swift; sourceTree = "<group>"; };
 		27C51C3F1EF6961400E485E4 /* TypeTripCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeTripCell.swift; sourceTree = "<group>"; };
@@ -335,6 +397,7 @@
 		22D978221EF6747F00865459 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				22D978B11EF699FD00865459 /* TitleBookingFlight.swift */,
 				27C51C2F1EF6947500E485E4 /* DetailPrice.swift */,
 				27C51C141EF68CF000E485E4 /* CelebrationDate.swift */,
 				047F92CC1EF6803400D9916B /* Icon.swift */,
@@ -377,6 +440,7 @@
 				27C51C161EF68E6000E485E4 /* UICollectionView.swift */,
 				27C51C171EF68E6000E485E4 /* UIImageView.swift */,
 				27C51C181EF68E6000E485E4 /* UISegmentedControl.swift */,
+				22D978B31EF69AC400865459 /* UITextView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -384,6 +448,9 @@
 		22D978381EF6759C00865459 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				22D978BB1EF69B1500865459 /* Payment */,
+				22D978B81EF69AF900865459 /* BillVAT */,
+				22D978B51EF69ADB00865459 /* BookingFlight */,
 				27C51C371EF6959100E485E4 /* InformationAssigmentScreen */,
 				27C51C341EF6957000E485E4 /* GuestInformationScreen */,
 				27C51C311EF6954C00E485E4 /* FlightInformationScreen */,
@@ -455,12 +522,15 @@
 		22D9784F1EF6766200865459 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				22D978DF1EF69C1100865459 /* Payment */,
+				22D978501EF6767300865459 /* Base */,
+				22D978C61EF69BE400865459 /* BookingFlight */,
+				22D978BE1EF69B3400865459 /* MenuBarBank */,
 				27C51C3C1EF6960900E485E4 /* FlightInformationScreen */,
 				27C51C2C1EF68F2900E485E4 /* PromotionScreen */,
 				27C51C251EF68F0600E485E4 /* Calendar */,
 				047F92C91EF67FEA00D9916B /* Loading */,
 				047F92A91EF67E9900D9916B /* ListFlights */,
-				22D978501EF6767300865459 /* Base */,
 				22D978591EF676A500865459 /* BarButton */,
 				22D9785C1EF676BE00865459 /* BottomMenuBar */,
 				22D978611EF676D200865459 /* SettingMenu */,
@@ -477,11 +547,12 @@
 			isa = PBXGroup;
 			children = (
 				047F92A71EF67E3800D9916B /* BaseAlertViewController.swift */,
+				22D978F61EF69C5700865459 /* BaseFooterView.swift */,
 				22D978511EF6768100865459 /* BaseCollectionViewCell.swift */,
 				22D978521EF6768100865459 /* BaseTableViewCell.swift */,
 				22D978531EF6768100865459 /* BaseUIView.swift */,
 				22D978541EF6768100865459 /* BaseViewController.swift */,
-				27C51C3A1EF695E900E485E4 /* BaseFooterView.swift */,
+				22D978C31EF69B8C00865459 /* BaseHeaderFooterTableView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -564,6 +635,76 @@
 				22D9788C1EF6776C00865459 /* TitleDetailCell.swift */,
 			);
 			path = ChooseNumberPassenger;
+			sourceTree = "<group>";
+		};
+		22D978B51EF69ADB00865459 /* BookingFlight */ = {
+			isa = PBXGroup;
+			children = (
+				22D978B61EF69AE600865459 /* BookingFlightController.swift */,
+			);
+			path = BookingFlight;
+			sourceTree = "<group>";
+		};
+		22D978B81EF69AF900865459 /* BillVAT */ = {
+			isa = PBXGroup;
+			children = (
+				22D978B91EF69B0500865459 /* BillVATController.swift */,
+			);
+			path = BillVAT;
+			sourceTree = "<group>";
+		};
+		22D978BB1EF69B1500865459 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				22D978BC1EF69B1F00865459 /* PaymentController.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		22D978BE1EF69B3400865459 /* MenuBarBank */ = {
+			isa = PBXGroup;
+			children = (
+				22D978BF1EF69B4700865459 /* MenuBarBank.swift */,
+				22D978C01EF69B4700865459 /* MenuBarBankCelll.swift */,
+			);
+			path = MenuBarBank;
+			sourceTree = "<group>";
+		};
+		22D978C61EF69BE400865459 /* BookingFlight */ = {
+			isa = PBXGroup;
+			children = (
+				22D978C71EF69BFE00865459 /* BillVATCell.swift */,
+				22D978C81EF69BFE00865459 /* BookFlightHeaderView.swift */,
+				22D978C91EF69BFE00865459 /* DepartureInfoCell.swift */,
+				22D978CA1EF69BFE00865459 /* InfomationContactCell.swift */,
+				22D978CB1EF69BFE00865459 /* InfomationPassengerCell.swift */,
+				22D978CC1EF69BFE00865459 /* LuggagePassengerCell.swift */,
+				22D978CD1EF69BFE00865459 /* NamePassengerCell.swift */,
+				22D978CE1EF69BFE00865459 /* PlaceDetailFlightCell.swift */,
+				22D978CF1EF69BFE00865459 /* RefundMoneyCell.swift */,
+				22D978D01EF69BFE00865459 /* TextFieldInfoCell.swift */,
+				22D978D11EF69BFE00865459 /* TotalMoneyCell.swift */,
+				22D978D21EF69BFE00865459 /* YourFlightCell.swift */,
+			);
+			path = BookingFlight;
+			sourceTree = "<group>";
+		};
+		22D978DF1EF69C1100865459 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				22D978E01EF69C2000865459 /* BookingCodeView.swift */,
+				22D978E11EF69C2000865459 /* DeatailTransactionCell.swift */,
+				22D978E21EF69C2000865459 /* DetailInfomationPassengerCell.swift */,
+				22D978E31EF69C2000865459 /* FooterPaymentCell.swift */,
+				22D978E41EF69C2000865459 /* HeaderPaymentCell.swift */,
+				22D978E51EF69C2000865459 /* ListPassengerCell.swift */,
+				22D978E61EF69C2000865459 /* NameDayOfBirthCell.swift */,
+				22D978E71EF69C2000865459 /* PaymentInfomationCell.swift */,
+				22D978E81EF69C2000865459 /* PriceTicketView.swift */,
+				22D978E91EF69C2000865459 /* TransactionCell.swift */,
+				22D978EA1EF69C2000865459 /* ViewFlight.swift */,
+			);
+			path = Payment;
 			sourceTree = "<group>";
 		};
 		238A5EFDCF6003954D8CDD5E /* Frameworks */ = {
@@ -694,6 +835,7 @@
 				TargetAttributes = {
 					04F7CF261EF66CD60005859C = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = DAA47P5N57;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -787,24 +929,40 @@
 				27C51C461EF6974200E485E4 /* UIView.swift in Sources */,
 				22D978821EF6773900865459 /* TypeClassView.swift in Sources */,
 				22D978281EF674B000865459 /* InfoFlight.swift in Sources */,
+				22D978F51EF69C2000865459 /* ViewFlight.swift in Sources */,
 				27C51C421EF6961400E485E4 /* TypeTripCell.swift in Sources */,
+				22D978B71EF69AE600865459 /* BookingFlightController.swift in Sources */,
 				22D9788F1EF6776C00865459 /* TitleChoosePassengerCell.swift in Sources */,
 				22D978571EF6768100865459 /* BaseUIView.swift in Sources */,
 				047F92B11EF67EB900D9916B /* InformationSearchView.swift in Sources */,
+				22D978DC1EF69BFE00865459 /* TextFieldInfoCell.swift in Sources */,
 				22D978701EF676FB00865459 /* SlideImageCell.swift in Sources */,
 				22D9782B1EF674B000865459 /* TypePassenger.swift in Sources */,
 				047F92C11EF67F5D00D9916B /* ChangeDateOptionsView.swift in Sources */,
+				22D978EE1EF69C2000865459 /* FooterPaymentCell.swift in Sources */,
+				22D978F41EF69C2000865459 /* TransactionCell.swift in Sources */,
 				27C51C2A1EF68F1500E485E4 /* DayCell.swift in Sources */,
+				22D978C11EF69B4700865459 /* MenuBarBank.swift in Sources */,
+				22D978F71EF69C5700865459 /* BaseFooterView.swift in Sources */,
 				04F7CF2B1EF66CD60005859C /* AppDelegate.swift in Sources */,
 				22D978781EF6771600865459 /* BaseFindFlightCell.swift in Sources */,
+				22D978F01EF69C2000865459 /* ListPassengerCell.swift in Sources */,
 				27C51C2E1EF68F3000E485E4 /* PromotionCell.swift in Sources */,
 				047F92BD1EF67F5200D9916B /* ChangeDateOptionsCollectionViewCell.swift in Sources */,
+				22D978DD1EF69BFE00865459 /* TotalMoneyCell.swift in Sources */,
 				22D9787D1EF6771600865459 /* FindFlightTextCell.swift in Sources */,
+				22D978EC1EF69C2000865459 /* DeatailTransactionCell.swift in Sources */,
+				22D978D31EF69BFE00865459 /* BillVATCell.swift in Sources */,
 				22D978661EF676E300865459 /* SettingCellWithLine.swift in Sources */,
 				27C51C441EF696B100E485E4 /* UIButton.swift in Sources */,
+				22D978D91EF69BFE00865459 /* NamePassengerCell.swift in Sources */,
+				22D978EF1EF69C2000865459 /* HeaderPaymentCell.swift in Sources */,
+				22D978F11EF69C2000865459 /* NameDayOfBirthCell.swift in Sources */,
+				22D978EB1EF69C2000865459 /* BookingCodeView.swift in Sources */,
 				27C51C151EF68CF000E485E4 /* CelebrationDate.swift in Sources */,
 				047F92B81EF67F2500D9916B /* FilterOptionsViewController.swift in Sources */,
-				27C51C3B1EF695E900E485E4 /* BaseFooterView.swift in Sources */,
+				22D978BD1EF69B1F00865459 /* PaymentController.swift in Sources */,
+				22D978DA1EF69BFE00865459 /* PlaceDetailFlightCell.swift in Sources */,
 				22D9785F1EF676C400865459 /* BottomMenuBar.swift in Sources */,
 				22D978291EF674B000865459 /* Ticket.swift in Sources */,
 				22D978371EF6757F00865459 /* UIFont.swift in Sources */,
@@ -813,6 +971,7 @@
 				22D9786F1EF676FB00865459 /* MenuButtonCell.swift in Sources */,
 				27C51C241EF68ED900E485E4 /* SuccessBookingController.swift in Sources */,
 				22D978671EF676E300865459 /* SettingHeadercell.swift in Sources */,
+				22D978C21EF69B4700865459 /* MenuBarBankCelll.swift in Sources */,
 				22D9786E1EF676FB00865459 /* MainMenuCollectionViewcell.swift in Sources */,
 				22D9787B1EF6771600865459 /* FindFlightPersonCell.swift in Sources */,
 				22D9782A1EF674B000865459 /* TypeClass.swift in Sources */,
@@ -825,23 +984,31 @@
 				047F92CB1EF67FF200D9916B /* LoadingView.swift in Sources */,
 				047F92CD1EF6803400D9916B /* Icon.swift in Sources */,
 				27C51C211EF68EBC00E485E4 /* PromotionController.swift in Sources */,
+				22D978D41EF69BFE00865459 /* BookFlightHeaderView.swift in Sources */,
 				22D978561EF6768100865459 /* BaseTableViewCell.swift in Sources */,
 				22D978451EF675F700865459 /* FindFlightController.swift in Sources */,
 				047F92DA1EF6810D00D9916B /* Theme.swift in Sources */,
+				22D978D51EF69BFE00865459 /* DepartureInfoCell.swift in Sources */,
 				047F92B61EF67F1C00D9916B /* FilterOptionsPriceRangeTableViewCell.swift in Sources */,
 				22D978601EF676C400865459 /* BottomMenuBarCell.swift in Sources */,
+				22D978D71EF69BFE00865459 /* InfomationPassengerCell.swift in Sources */,
 				22D9788E1EF6776C00865459 /* PickerChoosePassengerCell.swift in Sources */,
+				22D978B21EF699FD00865459 /* TitleBookingFlight.swift in Sources */,
 				22D978441EF675F700865459 /* ExtensionFindFlightController.swift in Sources */,
+				22D978DB1EF69BFE00865459 /* RefundMoneyCell.swift in Sources */,
 				27C51C1A1EF68E6000E485E4 /* UIImageView.swift in Sources */,
+				22D978C41EF69B8C00865459 /* BaseHeaderFooterTableView.swift in Sources */,
 				047F92D31EF680A600D9916B /* LoadingViewController.swift in Sources */,
 				27C51C361EF6957600E485E4 /* GuestInformationScreenController.swift in Sources */,
 				22D978551EF6768100865459 /* BaseCollectionViewCell.swift in Sources */,
 				047F92D01EF6808E00D9916B /* ListFlightsViewController.swift in Sources */,
+				22D978BA1EF69B0500865459 /* BillVATController.swift in Sources */,
 				047F92AD1EF67EAC00D9916B /* DisplayOptionsForListFlightsView.swift in Sources */,
 				22D9788D1EF6776C00865459 /* PassengerView.swift in Sources */,
 				22D9787C1EF6771600865459 /* FindFlightSwitchCell.swift in Sources */,
 				22D978861EF6775700865459 /* ChooseFlightCell.swift in Sources */,
 				047F92D81EF6810700D9916B /* Dimension.swift in Sources */,
+				22D978DE1EF69BFE00865459 /* YourFlightCell.swift in Sources */,
 				22D978581EF6768100865459 /* BaseViewController.swift in Sources */,
 				047F92BB1EF67F4E00D9916B /* ChangeDateOptionsAlertController.swift in Sources */,
 				047F92BF1EF67F5700D9916B /* ChangeDateOptionsContentCellView.swift in Sources */,
@@ -855,7 +1022,9 @@
 				27C51C1E1EF68E8D00E485E4 /* CalendarController.swift in Sources */,
 				047F92C61EF67F9D00D9916B /* ArrangeOptionsTableViewCell.swift in Sources */,
 				047F92AF1EF67EB300D9916B /* InformationFlightTableViewCell.swift in Sources */,
+				22D978F21EF69C2000865459 /* PaymentInfomationCell.swift in Sources */,
 				22D9784E1EF6764600865459 /* ChooseNumberPassengerController.swift in Sources */,
+				22D978ED1EF69C2000865459 /* DetailInfomationPassengerCell.swift in Sources */,
 				22D978651EF676E300865459 /* SettingCell.swift in Sources */,
 				27C51C1B1EF68E6000E485E4 /* UISegmentedControl.swift in Sources */,
 				22D978361EF6757F00865459 /* UIColor.swift in Sources */,
@@ -864,11 +1033,15 @@
 				22D978481EF6761400865459 /* TypeClassController.swift in Sources */,
 				22D9783D1EF675BD00865459 /* HomeViewController.swift in Sources */,
 				22D9783C1EF675BD00865459 /* ExtensionHomeViewController.swift in Sources */,
+				22D978B41EF69AC400865459 /* UITextView.swift in Sources */,
 				27C51C291EF68F1500E485E4 /* CelebrationCell.swift in Sources */,
 				27C51C401EF6961400E485E4 /* DetailPriceCell.swift in Sources */,
+				22D978F31EF69C2000865459 /* PriceTicketView.swift in Sources */,
 				047F92C81EF67FA300D9916B /* ArrangeOptionsView.swift in Sources */,
 				22D978401EF675D800865459 /* SettingMenuController.swift in Sources */,
 				27C51C411EF6961400E485E4 /* FooterForDetailPriceView.swift in Sources */,
+				22D978D81EF69BFE00865459 /* LuggagePassengerCell.swift in Sources */,
+				22D978D61EF69BFE00865459 /* InfomationContactCell.swift in Sources */,
 				047F92AB1EF67EA600D9916B /* ContentOptionsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -987,9 +1160,11 @@
 			baseConfigurationReference = 3412B6B552F94D82A2FBC98A /* Pods-123Bay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DAA47P5N57;
 				INFOPLIST_FILE = 123Bay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23bay.-23Bay";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAI23bay.-23Bay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1000,9 +1175,11 @@
 			baseConfigurationReference = D4C76ADEBF6D3B210D89DF6A /* Pods-123Bay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DAA47P5N57;
 				INFOPLIST_FILE = 123Bay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-23bay.-23Bay";
+				PRODUCT_BUNDLE_IDENTIFIER = "HAI23bay.-23Bay";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
