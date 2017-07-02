@@ -467,10 +467,14 @@ class CalendarController: UIViewController {
         
         for i in arrayGlobalCalendarDate {
             if i.day == Int(cellDay) && i.month == Int(cellMonth) {
-                if i.day < day && i.month == month {
-                    validCell.dayLabel.textColor = Theme.shared.oldDayColor
+                if cellState.dateBelongsTo == .thisMonth {
+                    if i.day < day && i.month == month {
+                        validCell.dayLabel.textColor = Theme.shared.oldDayColor
+                    } else {
+                        validCell.dayLabel.textColor = Theme.shared.sundayColor
+                    }
                 } else {
-                    validCell.dayLabel.textColor = Theme.shared.sundayColor
+                    validCell.dayLabel.textColor = Theme.defaultColor
                 }
             }
         }
@@ -532,6 +536,7 @@ class CalendarController: UIViewController {
                 monthTitleText.text = "Tháng 12/\(showYear)"
                 break
             default:
+                monthTitleText.text = "\(showMonth)/\(showYear)"
                 break
             }
         }
@@ -569,9 +574,9 @@ class CalendarController: UIViewController {
     }
     
     //Modified again month
-    fileprivate func modifiedMonth(month: String) -> Int {
+    fileprivate func modifiedMonth(cMonth: String) -> Int {
         var m: Int!
-        switch month {
+        switch cMonth {
         case "January":
             m = 1
             break
@@ -608,7 +613,44 @@ class CalendarController: UIViewController {
         case "December":
             m = 12
             break
+        case "tháng 1":
+            m = 1
+            break
+        case "tháng 2":
+            m = 2
+            break
+        case "tháng 3":
+            m = 3
+            break
+        case "tháng 4":
+            m = 4
+            break
+        case "tháng 5":
+            m = 5
+            break
+        case "tháng 6":
+            m = 6
+            break
+        case "tháng 7":
+            m = 7
+            break
+        case "tháng 8":
+            m = 8
+            break
+        case "tháng 9":
+            m = 9
+            break
+        case "tháng 10":
+            m = 10
+            break
+        case "tháng 11":
+            m = 11
+            break
+        case "tháng 12":
+            m = 12
+            break
         default:
+            m = 1
             break
         }
         return m
@@ -709,7 +751,7 @@ extension CalendarController: JTAppleCalendarViewDelegate {
             let arrC = c.components(separatedBy: "/")
             let showMonth = arrC[1]
             let showDay = arrC[0]
-            let mMonth = modifiedMonth(month: showMonth)
+            let mMonth = modifiedMonth(cMonth: showMonth)
             getSpecialDayForMonth(getMonth: mMonth, getDay: Int(showDay)!)
         }
     }
